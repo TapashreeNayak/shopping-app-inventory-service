@@ -6,9 +6,9 @@ spring:
      name: Inventory_Service
 
   datasource:
-    url: jdbc:oracle:thin:@localhost:1521/XEPDB1
-    username: SHOPPING_APP
-    password: shop123
+    url: jdbc:oracle:thin:@localhost:1521/{DB_NAME}
+    username: {DB_USER}
+    password: {PWD}
     driver-class-name: oracle.jdbc.OracleDriver
     hikari:
       maximum-pool-size: 10
